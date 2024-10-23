@@ -13,13 +13,13 @@
 // console.log(`123`);
 
 
-let online = true
-let forSale = true
-let isStudent = false
+// let online = true
+// let forSale = true
+// let isStudent = false
 
-console.log(`Khallo is online: ${online}`)
-console.log(`Is This car for sale: ${forSale}`)
-console.log(`Khaalid:${isStudent}`)
+// console.log(`Khallo is online: ${online}`)
+// console.log(`Is This car for sale: ${forSale}`)
+// console.log(`Khaalid:${isStudent}`)
 
 // let favoritFood = "Checken"
 // let firstName = "Khallo"
@@ -46,3 +46,11 @@ console.log(`Khaalid:${isStudent}`)
 // console.log(`The price is ${price}`)
 // console.log(`This is your rate ${gba}`)
 
+
+let fullName = "Khaalid maxamed"
+let age = 19
+let isStudent = true
+
+document.getElementById("p1").textContent = `my name is: ${fullName}`
+document.getElementById("p2").textContent = `my age is: ${age}`
+document.getElementById("p3").textContent = `am i student: ${isStudent}`
